@@ -1,0 +1,181 @@
+body{
+	background-color: black;
+}
+
+nav ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1em 2.1em 1em 2.1em;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+nav li a:hover {
+  background-color: grey;
+  
+}
+
+#header div{
+	padding: 1em 0em 1em 0em;
+}
+
+#left-side{
+	width: 65em;
+	height: 18em;
+}
+
+#right-side{
+	width: 18em;
+	height: 18em;
+}
+
+#personal{
+	background-color: #333;
+	color: white;
+	padding: 1em 2em 1em 2em;
+	margin-bottom: 2em;
+}
+
+#personal h1{
+	background-color: #17091f;
+	padding: 0.5em 1em 0.5em 1em;
+}
+
+#personal ul li{
+	font-size: 1.2em;
+	list-style-type: none;
+}
+
+#personal li a{
+  color: lightblue;
+}
+
+#objective{
+	padding: 0.5em 5em 3em 3em;
+	color: white;
+}
+
+#objective h3{
+	padding-left: 3em;
+}
+
+#skills{
+	background-color: #333;
+	color: white;
+	padding: 1em 2em 1em 2em;
+	margin-bottom: 2em;
+}
+
+#skills h1{
+	background-color: #17091f;
+	padding: 0.5em 1em 0.5em 1em;
+}
+
+#skills h2{
+	padding: 1em 0em 1em 0em;
+}
+
+#skills p{
+	font-size: 1.3em;
+}
+
+#skills img{
+	height: 100px;
+	width: 240px;
+	padding: 0.2em;
+}
+
+#education{
+	padding: 0.01em 5em 1.5em 3em;
+	color: white;
+}
+
+#education h3{
+	padding-left: 3em;
+}
+
+#education h4{
+	padding-left: 3.5em;
+}
+
+#aexp{
+	background-color: #333;
+	color: white;
+	padding: 1em 2em 1em 2em;
+	margin-bottom: 2em;
+}
+
+#aexp h1{
+	background-color: #17091f;
+	padding: 0.5em 1em 0.5em 1em;
+}
+
+#aexp ul li{
+	font-size: 1.2em;
+	padding: 0.5em;
+}
+
+#ar{
+	padding: 0.1em 5em 1.5em 3em;
+	color: white;
+}
+
+#pexp{
+	background-color: #333;
+	color: white;
+	padding: 1em 2em 1em 2em;
+	margin-bottom: 5em;
+}
+
+#pexp h1{
+	background-color: #17091f;
+	padding: 0.5em 1em 0.5em 1em;
+}
+
+#pexp h3{
+	padding-left: 1em;
+}
+
+#pexp h4{
+	padding-left: 1em;
+}
+
+.footer{
+	background-color: grey;
+	width: 98.9%;
+	color: white;
+	bottom: 0;
+	position: fixed;
+}
+
+footer p{
+	text-align: center;
+}
+
+footer a{
+	float: right;
+	background-color: black;
+	color: white;
+	padding: 1em;
+	margin-top: -1em;
+	margin-right: 1em;
+}
+
+footer a:hover{
+	background-color: white;
+	color: black;
+}
